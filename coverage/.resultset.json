@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -208,12 +208,12 @@
         "lines": [
           1,
           1,
-          52,
+          1,
           null,
           1,
-          22,
-          22,
-          22,
+          1,
+          1,
+          1,
           1,
           null,
           null
@@ -246,14 +246,14 @@
           1,
           1,
           1,
-          1,
+          0,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -265,16 +265,16 @@
           1,
           1,
           1,
-          1,
+          0,
           null,
           1,
-          1,
+          0,
           null,
-          1,
+          0,
           null,
-          1,
+          0,
           null,
-          1,
+          0,
           null,
           null
         ]
@@ -289,18 +289,18 @@
           null,
           null,
           1,
-          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
           null,
           1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -315,10 +315,10 @@
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
-          1,
+          0,
           null,
           null
         ]
@@ -336,108 +336,8 @@
           1,
           null
         ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/models/item.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/api/v1/items_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/api/v1/items_search_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/api/v1/merchant_items_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/api/v1/merchants_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/controllers/api/v1/merchants_search_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1640900253
+    "timestamp": 1641162284
   }
 }
