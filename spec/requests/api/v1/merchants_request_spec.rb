@@ -10,13 +10,14 @@ describe "Merchants API" do
 
     expect(response).to be_successful
 
-    merchants = JSON.parse(response.body)
-
+    merchants = JSON.parse(response.body, symbolize_names: true)
+    merchants = merchants[:data]
     expect(merchants.count).to eq(3)
   end
   it "finds one merchant with id" do
     get "/api/v1/merchants/#{Merchant.first.id}"
-    merchant = JSON.parse(response.body)
-    expect(merchant["name"]).to eq("John")
+    merchants = JSON.parse(response.body, symbolize_names: true)
+    merchants = merchants[:data]
+    expect(merchants[:attributes][:name]).to eq("John")
   end
 end

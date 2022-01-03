@@ -208,12 +208,12 @@
         "lines": [
           1,
           1,
-          1,
+          25,
           null,
           1,
-          1,
-          1,
-          1,
+          13,
+          13,
+          13,
           1,
           null,
           null
@@ -239,86 +239,42 @@
           null
         ]
       },
-      "/Users/billyfrey/Turing/3module/rails-engine/spec/requests/api/v1/items_search_request_spec.rb": {
+      "/Users/billyfrey/Turing/3module/rails-engine/app/models/item.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           1,
-          1,
-          0,
           null,
-          1,
-          0,
-          0,
-          null,
-          0,
-          0,
           null,
           null
         ]
       },
-      "/Users/billyfrey/Turing/3module/rails-engine/spec/requests/api/v1/merchant_items_request_spec.rb": {
+      "/Users/billyfrey/Turing/3module/rails-engine/app/models/application_record.rb": {
         "lines": [
           1,
-          null,
           1,
-          1,
-          1,
-          0,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
           null,
           null
         ]
       },
-      "/Users/billyfrey/Turing/3module/rails-engine/spec/requests/api/v1/merchants_request_spec.rb": {
+      "/Users/billyfrey/Turing/3module/rails-engine/spec/models/merchant_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           2,
+          2,
           null,
           null,
-          1,
-          0,
+          2,
           null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/spec/requests/api/v1/merchants_search_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
           1,
           null,
           null,
           1,
-          0,
-          0,
-          null,
-          0,
           null,
           null
         ]
@@ -327,17 +283,15 @@
         "lines": [
           1,
           1,
-          null
-        ]
-      },
-      "/Users/billyfrey/Turing/3module/rails-engine/app/models/application_record.rb": {
-        "lines": [
+          null,
           1,
           1,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1641162284
+    "timestamp": 1641192095
   }
 }

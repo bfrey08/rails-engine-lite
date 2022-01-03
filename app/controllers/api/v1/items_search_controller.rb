@@ -1,6 +1,7 @@
 class Api::V1::ItemsSearchController < ApplicationController
   def index
-    render json: Item.where(name: params[:name])
+    item = Item.search_name(params[:name])
+    render json: ItemSerializer.new(item)
   end
 
 end

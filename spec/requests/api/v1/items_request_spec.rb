@@ -7,10 +7,10 @@ describe "Items API" do
   end
   it "can make a list of all items" do
     get "/api/v1/items"
-
     expect(response).to be_successful
 
-    items = JSON.parse(response.body)
+    items = JSON.parse(response.body, symbolize_names: true)
+    items = items[:data]
 
     expect(items.count).to eq(3)
   end
@@ -19,8 +19,9 @@ describe "Items API" do
 
     expect(response).to be_successful
 
-    items = JSON.parse(response.body)
-    expect(items["name"]).to eq("Fun Item")
+    items = JSON.parse(response.body, symbolize_names: true)
+    items = items[:data][:attributes]
+    expect(items[:name]).to eq("Fun Item")
   end
   it "can create an item" do
 
